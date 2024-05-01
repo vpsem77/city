@@ -1,9 +1,8 @@
 let img;
 
 function setup(){
-  createCanvas(1191, 1684);
+  creatCanvas(1191, 1684);
   img = loadImage("city reconstruct.png");
-  img.resize(1191, 1684);
 }
 
 function draw(){
@@ -21,7 +20,7 @@ function draw(){
       for (var y = 0; y < tiles; y++) {
         
         var c = img.get(int(x*tileSize), int(y*tileSize));
-        var size = map(brightness(c), 0, 255, 10, 0);
+        var size = map(brightness(c), 0, 255, 20, 0);
         
         ellipse(x*tileSize, y*tileSize, size, size);
     }

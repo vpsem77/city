@@ -1,8 +1,9 @@
 let img;
 
 function setup(){
-  createCanvas(1191, 1684);
+  creatCanvas(500, 500);
   img = loadImage("city reconstruct.png");
+  resize(1191, 1684)
 }
 
 function draw(){

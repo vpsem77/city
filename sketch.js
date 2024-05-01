@@ -1,4 +1,4 @@
-var img;
+let img;
 
 function setup(){
   createCanvas(1191, 1684);

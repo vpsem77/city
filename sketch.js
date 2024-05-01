@@ -11,7 +11,7 @@ function draw(){
   fill(0);
   noStroke();
   
-  var tiles = mouseX/10;
+  var tiles = mouseX/100;
   var tileSize = width/tiles;
   
   translate(tileSize/2, tileSize/2);

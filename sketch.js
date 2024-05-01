@@ -1,7 +1,7 @@
 var img;
 
 function setup(){
-  creatCanvas(1191, 1684);
+  createCanvas(1191, 1684);
   img = loadImage("city reconstruct.png");
 }
 

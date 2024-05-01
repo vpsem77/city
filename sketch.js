@@ -1,7 +1,7 @@
 let img;
 
 function setup(){
-  createCanvas(1191, 1684);
+  createCanvas(595, 842);
   img = loadImage("city reconstruct.png");
 }
 
@@ -11,7 +11,7 @@ function draw(){
   fill(0);
   noStroke();
   
-  var tiles = mouseX/100;
+  var tiles = mouseX/10;
   var tileSize = width/tiles;
   
   translate(tileSize/2, tileSize/2);
